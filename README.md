@@ -11,7 +11,7 @@ Daily Reminder Application
    
    Middlerware : Nodejs for Business Logic i.e Add, List, Delete etc 
 
-## Backend :
+## BackEnd :
 
    Mongo DB : NoSQL DB , Use for data storage
    
