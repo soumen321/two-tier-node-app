@@ -11,7 +11,7 @@ Run App on deployment server
 
 ![private repo1](https://github.com/soumen321/two-tier-node-app/assets/2536037/7c85df8d-67de-45eb-805a-4be35c34e9be)    ![public-repo](https://github.com/soumen321/two-tier-node-app/assets/2536037/7a0b0a39-4f4d-4c9e-ab9c-1543c32cf7fd) 
 
-![compose](https://github.com/soumen321/two-tier-node-app/assets/2536037/9b317413-3e43-413c-9c33-3657e63dfcf2)
+![compose](https://github.com/soumen321/two-tier-node-app/assets/2536037/50f1e0b1-de5c-46d0-90cf-491cd0758ed4)
 
 
 ## Pull the image from Prive Repository and use in compose
@@ -20,11 +20,15 @@ Steps :
   - Login Docker Hub
   - Create Repository
   - Build Image
+    
       docker build -t ******/node-reminder-app:1.0 .
   - Login Docker Hub from CMD
+    
       Username : ****
+    
       Password : ****
   - Push Image in Docker Hub
+  - 
       docker push ***/node-reminder-app:1.0
 
  ## Change in Compose file
