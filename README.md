@@ -1,2 +1,2 @@
-# two-tier-node-app
-Two Tier Node Application
+# Two Tier Node Application
+
