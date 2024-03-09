@@ -16,7 +16,7 @@ Daily Reminder Application
 
 - Steps :
     - Pull Mongo db and Mongo Express image from Docker Hub
-       # docker pull mongo / mongo-express
+       # docker pull mongo and mongo-express
     - Create a Docker file of JS Application and build the file to create image
        # docker build -t reminder-multi-stage:v1.0 . --no-cache
     - Create a Compose file [compose.yml]
