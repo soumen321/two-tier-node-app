@@ -14,9 +14,9 @@ Run App on deployment server
 ![compose](https://github.com/soumen321/two-tier-node-app/assets/2536037/9b317413-3e43-413c-9c33-3657e63dfcf2)
 
 
-## Pull the image from Prive REpo and use in compose
+## Pull the image from Prive Repository and use in compose
 
-Steps
+Steps :
   - Login Docker Hub
   - Create Repository
   - Build Image
