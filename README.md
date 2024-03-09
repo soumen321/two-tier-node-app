@@ -27,9 +27,12 @@ Daily Reminder Application
          - Volume
               Persistent Data store for future reference
          - Network
-              Declare a Network , container can communicate with the common network [ or container can use/create default network]  
-        
+              Declare a Network , container can communicate with the common network [ or container can use/create default network]
+           
+         # docker-compose -f reminder.yml up -d [detach mode]
 
+         # docker-compose -f reminder.yml down [remove containers]
+         
 
 ![image](https://github.com/soumen321/two-tier-node-app/assets/2536037/a960fbb8-4ffb-4878-8418-47a6f80d7e91)
 
