@@ -3,12 +3,15 @@
 Daily Reminder Application
 
 ## FrontEnd :&ensp;
-   UI : Add and Remove Reminder&ensp;
-   Middlerware : Nodejs for Business Logic i.e Add, List, Delete etc &ensp;&ensp;
+   UI : Add and Remove Reminder
+   
+   Middlerware : Nodejs for Business Logic i.e Add, List, Delete etc 
 
 ## Backend &ensp;
-   Mongo DB : NoSQL DB , Use for data storage&ensp;
-   Mongo-Express : UI for MongoDB interaction&ensp;
+
+   Mongo DB : NoSQL DB , Use for data storage
+   
+   Mongo-Express : UI for MongoDB interaction
   
 
 - Steps
