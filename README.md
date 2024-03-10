@@ -2,6 +2,8 @@
 
 Daily Reminder Application
 
+![image](https://github.com/soumen321/two-tier-node-app/assets/2536037/a960fbb8-4ffb-4878-8418-47a6f80d7e91)
+
 # What will do
 
 ![js-container-compose](https://github.com/soumen321/two-tier-node-app/assets/2536037/b21df327-6093-402c-a8c5-16ab402a0908)
@@ -38,7 +40,7 @@ Daily Reminder Application
          # docker-compose -f reminder.yml down [remove containers]
          
 
-![image](https://github.com/soumen321/two-tier-node-app/assets/2536037/a960fbb8-4ffb-4878-8418-47a6f80d7e91)
+
 
 
 
