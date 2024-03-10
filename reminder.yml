@@ -3,6 +3,9 @@ services :
 # frontend service
   reminderapp:
     image : techsoumen/node-reminder-app:${TAG}
+    #build: 
+    #  context: .
+    #  dockerfile: build/Dockerfile.prod
     ports:
       - "3000:3000"
     environment:
@@ -10,7 +13,7 @@ services :
     - MONGO_DB_PASSWORD=${MONGO_ADMIN_PASSWORD}
     - MONGO_DB_HOST=mongodb
     networks :
-      - reminder-network
+     - reminder-network
     depends_on:
      - mongodb  
 
