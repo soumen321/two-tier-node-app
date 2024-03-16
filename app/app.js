@@ -11,13 +11,13 @@ const DB_PASSWORD = process.env.MONGO_DB_PASSWORD;
 const MONGO_DB_HOST = process.env.MONGO_DB_HOST;
 
 // localhost Connect to MongoDB
-let mongoUrlDockerCompose = 'mongodb://admin:password@localhost:27017/reminders'
+//let mongoUrlDockerCompose = 'mongodb://admin:password@localhost:27017/reminders'
 
 //changes for docker file
 
 //let mongoUrlDockerCompose = `mongodb://${DB_USER}:${DB_PASSWORD}@${MONGO_DB_HOST}/reminders`
 
-//let mongoUrlDockerCompose = `mongodb://admin:password@mongodb:27017/reminders`
+let mongoUrlDockerCompose = `mongodb://admin:password@mongodb:27017/reminders`
 
 mongoose.connect(mongoUrlDockerCompose, {
     authSource: 'admin'
