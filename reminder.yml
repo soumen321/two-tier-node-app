@@ -2,7 +2,8 @@ version : '3'
 services :
 # frontend service
   reminderapp:
-    build: .
+   # build: .
+    image: techsoumen/my-remider-app:${VERSION}
     ports:
       - "3000:3000"
     environment:
