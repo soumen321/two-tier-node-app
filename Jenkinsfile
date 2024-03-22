@@ -1,8 +1,13 @@
 pipeline {
     agent any
     
+    tools { 
+        jdk 'jdk17'
+    }
+    
     environment {
         VERSION = "2.0"
+        SONAR_HOME = tool 'sonar-scanner' 
     }
     
     stages {
@@ -16,6 +21,17 @@ pipeline {
             steps {
                 echo "Building the code"
                 sh "docker build -t my-remider-app ." 
+            }
+            
+        }
+        stage('SonarQube Analysis'){
+            steps {
+                echo "Sonarqube scan"
+                
+                
+               withSonarQubeEnv("sonar-server"){
+                   sh "$SONAR_HOME/bin/sonar-scanner -Dsonar.projectName=reminder-app-compose -Dsonar.projectKey=reminder-app-compose -X"
+               }
             }
             
         }
